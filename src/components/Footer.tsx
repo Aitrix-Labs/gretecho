@@ -75,7 +75,7 @@ export default function Footer() {
       </div>
 
       <div className="container footer__bottom">
-        <p>Copyright {new Date().getFullYear()} Gretecho · gretecho.com</p>
+        <p>© {new Date().getFullYear()} Gretecho. All rights reserved.</p>
         <div className="footer__social">
           <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn">
             <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">

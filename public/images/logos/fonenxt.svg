@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 64" fill="none">
+  <rect x="8" y="14" width="36" height="36" rx="18" fill="#FF6A00"/>
+  <path d="M20 40V24l16 8-16 8z" fill="#fff"/>
+  <text x="54" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#FF6A00">FoneNXT</text>
+</svg>

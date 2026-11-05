@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" fill="none">
+  <rect x="8" y="14" width="36" height="36" rx="10" fill="#2E8B57"/>
+  <path d="M18 32h16M28 24l8 8-8 8" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="54" y="28" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#2E8B57">eSewa</text>
+  <text x="54" y="48" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#444">Money Transfer</text>
+</svg>

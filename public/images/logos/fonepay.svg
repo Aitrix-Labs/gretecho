@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 64" fill="none">
+  <rect x="8" y="14" width="36" height="36" rx="18" fill="#5B2CFF"/>
+  <path d="M20 40l8-16 8 16" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="28" cy="36" r="2.5" fill="#fff"/>
+  <text x="54" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#5B2CFF">fonepay</text>
+</svg>

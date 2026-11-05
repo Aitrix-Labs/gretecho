@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" fill="none">
+  <rect x="8" y="14" width="36" height="36" rx="10" fill="#0B9B8A"/>
+  <path d="M19 38V26h10c3.3 0 6 2 6 5.5S32.3 37 29 37H23" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="54" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0B9B8A">foneloan</text>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" fill="none">
+  <rect x="8" y="14" width="36" height="36" rx="10" fill="#0F766E"/>
+  <path d="M18 40V24M26 40V28M34 40V22" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  <text x="54" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0F766E">eXtensoData</text>
+</svg>

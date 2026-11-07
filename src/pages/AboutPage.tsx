@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { asset } from '../asset'
 import PageBanner from '../components/PageBanner'
 import Stats from '../components/Stats'
 
@@ -8,7 +9,7 @@ export default function AboutPage() {
       <PageBanner
         title="About Us"
         subtitle="For over two decades, Gretecho has been at the forefront of digital financial services across Nepal and beyond."
-        image="/images/bg-about.jpg"
+        image={asset('images/bg-about.jpg')}
       />
       <section className="page-section page-section--light">
         <div className="container page-prose">

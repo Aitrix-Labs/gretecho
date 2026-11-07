@@ -541,7 +541,7 @@ ul {
   padding: clamp(3rem, 7vw, 5rem) 0 clamp(1.5rem, 4vw, 2rem);
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.92)),
-    url('/images/bg-section-light.jpg') center / cover no-repeat;
+    url('/gretecho/images/bg-section-light.jpg') center / cover no-repeat;
 }
 
 .about__intro {
@@ -567,7 +567,7 @@ ul {
   padding: 1rem 0 5rem;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.94)),
-    url('/images/bg-section-light.jpg') center / cover no-repeat;
+    url('/gretecho/images/bg-section-light.jpg') center / cover no-repeat;
 }
 
 .stats__grid {
@@ -660,7 +660,7 @@ ul {
   padding: clamp(3rem, 7vw, 5rem) 0;
   background:
     linear-gradient(180deg, rgba(246, 245, 243, 0.9), rgba(246, 245, 243, 0.94)),
-    url('/images/bg-solutions.jpg') center / cover no-repeat;
+    url('/gretecho/images/bg-solutions.jpg') center / cover no-repeat;
 }
 
 .solutions__header {
@@ -808,7 +808,7 @@ ul {
   padding: clamp(3rem, 7vw, 5rem) 0;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.94)),
-    url('/images/bg-news.jpg') center / cover no-repeat;
+    url('/gretecho/images/bg-news.jpg') center / cover no-repeat;
 }
 
 .news__header {
@@ -845,7 +845,7 @@ ul {
   position: absolute;
   inset: 0;
   z-index: -2;
-  background: var(--news-image, url('/images/news-featured.jpg')) center / cover no-repeat;
+  background: var(--news-image, url('/gretecho/images/news-featured.jpg')) center / cover no-repeat;
 }
 
 .news__featured::after {
@@ -920,7 +920,7 @@ ul {
   padding: clamp(3rem, 7vw, 5rem) 0;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(246, 245, 243, 0.94)),
-    url('/images/bg-section-light.jpg') center / cover no-repeat;
+    url('/gretecho/images/bg-section-light.jpg') center / cover no-repeat;
   color: var(--ink);
 }
 
@@ -1064,7 +1064,7 @@ ul {
   inset: 0;
   z-index: -2;
   background:
-    var(--page-banner-image, url('/images/bg-banner-dark.jpg')) center / cover no-repeat;
+    var(--page-banner-image, url('/gretecho/images/bg-banner-dark.jpg')) center / cover no-repeat;
   transform: scale(1.02);
 }
 
@@ -1102,7 +1102,7 @@ ul {
 .page-section--light {
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.93)),
-    url('/images/bg-section-light.jpg') center / cover no-repeat;
+    url('/gretecho/images/bg-section-light.jpg') center / cover no-repeat;
 }
 
 .page-prose {

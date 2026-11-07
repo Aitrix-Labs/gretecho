@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
+import { asset } from '../asset'
 
-const HERO_VIDEO = '/videos/hero-digital-payment.mp4?v=2'
+const HERO_VIDEO = `${asset('videos/hero-digital-payment.mp4')}?v=2`
 
 export default function Hero() {
   const [muted, setMuted] = useState(true)

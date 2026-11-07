@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { asset } from '../asset'
 import PageBanner from '../components/PageBanner'
 
 export default function CareerPage() {
@@ -7,7 +8,7 @@ export default function CareerPage() {
       <PageBanner
         title="Career"
         subtitle="Join a 1200+ strong team of technologists, domain experts, and creative thinkers."
-        image="/images/bg-about.jpg"
+        image={asset('images/bg-about.jpg')}
       />
       <section className="page-section page-section--light">
         <div className="container page-prose">

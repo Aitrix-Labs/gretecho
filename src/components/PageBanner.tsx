@@ -1,3 +1,5 @@
+import { asset } from '../asset'
+
 type PageBannerProps = {
   title: string
   subtitle: string
@@ -7,7 +9,7 @@ type PageBannerProps = {
 export default function PageBanner({
   title,
   subtitle,
-  image = '/images/bg-banner-dark.jpg',
+  image = asset('images/bg-banner-dark.jpg'),
 }: PageBannerProps) {
   return (
     <section

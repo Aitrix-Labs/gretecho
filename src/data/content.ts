@@ -1,3 +1,5 @@
+import { asset } from '../asset'
+
 export const navLinks = [
   { label: 'About Us', to: '/about' },
   { label: 'Our Solutions', to: '/solutions' },
@@ -14,7 +16,7 @@ export const stats = [
     description:
       'With our innovation center in Nepal and business center in Dubai, we continue to expand our horizons',
     tone: 'sky',
-    image: '/images/stat-countries.jpg',
+    image: asset('images/stat-countries.jpg'),
   },
   {
     value: '50+',
@@ -22,7 +24,7 @@ export const stats = [
     description:
       "We are the trusted technology partner for leading Banks and FI's, empowering them to deliver seamless digital experiences",
     tone: 'amber',
-    image: '/images/stat-partners.jpg',
+    image: asset('images/stat-partners.jpg'),
   },
   {
     value: '26M+',
@@ -30,7 +32,7 @@ export const stats = [
     description:
       'Our technology touches the lives of millions of people, simplifying their access to financial services',
     tone: 'cyan',
-    image: '/images/stat-users.jpg',
+    image: asset('images/stat-users.jpg'),
   },
   {
     value: '1200+',
@@ -38,7 +40,7 @@ export const stats = [
     description:
       'Guided by our values, our workforce comprises experienced technologists, domain experts, and creative thinkers',
     tone: 'rose',
-    image: '/images/stat-team.jpg',
+    image: asset('images/stat-team.jpg'),
   },
 ] as const
 
@@ -50,7 +52,7 @@ export const solutions = [
       'By seamlessly integrating mobile, web and branch banking, our Omnichannel Banking solution is designed to unify and elevate the customer experience across all touchpoints.',
     useCase:
       'BankXP, our omnichannel banking platform, is trusted by 50+ banks, enabling them to deliver a complete and consistent digital banking experience to 23M+ customers through self-service and assisted options.',
-    image: '/images/sol-omnichannel.jpg',
+    image: asset('images/sol-omnichannel.jpg'),
     metrics: [
       { value: '50+', label: 'Banks' },
       { value: '23M+', label: 'Customers' },
@@ -65,7 +67,7 @@ export const solutions = [
       'Our Neobanking solution, a cutting-edge Banking as a Service (BaaS) platform, enables banks to foster innovation by reducing operational complexities and accelerating time-to-market through fully digital, customer-centric banking experiences.',
     useCase:
       'OrangeNXT is a digital-only banking service, the first of its kind in Nepal. Designed as a next-gen digital banking platform, it caters to the digital native by providing features like digital account opening, goal based savings and personal finance management.',
-    image: '/images/sol-neobanking.jpg',
+    image: asset('images/sol-neobanking.jpg'),
     metrics: [
       { value: '100%', label: 'Digital Onboarding' },
       { value: '100%', label: 'Digital Operations' },
@@ -78,7 +80,7 @@ export const solutions = [
       'Our foray into Fintech! Over 15 years of continuous development and innovation has made our digital wallet solution a powerhouse product capable of functioning as an ecosystem on its own. It seamlessly connects customers, merchants, agents and banks to provide services that go beyond payments.',
     useCase:
       "eSewa is South Asia's first digital wallet and has emerged as Nepal's most popular and widely-used wallet. eSewa has been instrumental in revolutionizing the digital payments landscape in Nepal.",
-    image: '/images/sol-wallet.jpg',
+    image: asset('images/sol-wallet.jpg'),
     metrics: [
       { value: '3M+', label: 'Active Users' },
       { value: '250K+', label: 'Agents' },
@@ -93,7 +95,7 @@ export const solutions = [
       'Our digital lending solution enables instant, automated, and collateral-free loans through a fully digital process. It offers an end-to-end lending solution powered by a Decision Analytics System to assess credit worthiness and a Loan Management System that automates the entire lending cycle.',
     useCase:
       "Foneloan is a next-gen digital lending solution that empowers banks to provide quick, hassle-free loans directly through customers' mobile devices.",
-    image: '/images/sol-lending.jpg',
+    image: asset('images/sol-lending.jpg'),
     metrics: [
       { value: '100K+', label: 'Users' },
       { value: '320K+', label: 'Loans Disbursed' },
@@ -107,7 +109,7 @@ export const solutions = [
       'Our Interoperable Payment System integrates various financial players into a unified system, enabling rapid adoption and seamless transactions by leveraging cutting-edge technologies like real-time payment processing, QR codes, NFC, and digital interfaces.',
     useCase:
       "Fonepay is Nepal's largest payment network that connects BFI's, Merchants and Consumers through an interoperable ecosystem.",
-    image: '/images/sol-payments.jpg',
+    image: asset('images/sol-payments.jpg'),
     metrics: [
       { value: '60+', label: "Partner BFI's" },
       { value: '20M+', label: 'Customers' },
@@ -122,7 +124,7 @@ export const solutions = [
       'Our innovative reward system empowers customers with personalized benefits, including points, cashback, and discounts, elevating them to loyal advocates who drive long-term growth and success.',
     useCase:
       'Fonepoints is a digital loyalty management platform that enables businesses to provide enhanced loyalty experiences for their customers.',
-    image: '/images/sol-loyalty.jpg',
+    image: asset('images/sol-loyalty.jpg'),
     metrics: [
       { value: '1.68M+', label: 'Customers' },
       { value: '900+', label: 'Active Offers' },
@@ -134,28 +136,28 @@ export const verticals = [
   {
     name: 'Gretecho',
     tag: 'Fintech',
-    logo: '/images/logos/gretecho.svg',
+    logo: asset('images/logos/gretecho.svg'),
   },
-  { name: 'eSewa', tag: 'Digital Wallet', logo: '/images/logos/esewa.svg' },
-  { name: 'Fonepay', tag: 'Payment System', logo: '/images/logos/fonepay.svg' },
-  { name: 'Foneloan', tag: 'Digital Lending', logo: '/images/logos/foneloan.svg' },
+  { name: 'eSewa', tag: 'Digital Wallet', logo: asset('images/logos/esewa.svg') },
+  { name: 'Fonepay', tag: 'Payment System', logo: asset('images/logos/fonepay.svg') },
+  { name: 'Foneloan', tag: 'Digital Lending', logo: asset('images/logos/foneloan.svg') },
   {
     name: 'eSewa Money Transfer',
     tag: 'Remittance',
-    logo: '/images/logos/esewa-mt.svg',
+    logo: asset('images/logos/esewa-mt.svg'),
   },
-  { name: 'FoneNXT', tag: 'Neo Banking', logo: '/images/logos/fonenxt.svg' },
-  { name: 'Foneinsure', tag: 'Insurtech', logo: '/images/logos/foneinsure.svg' },
+  { name: 'FoneNXT', tag: 'Neo Banking', logo: asset('images/logos/fonenxt.svg') },
+  { name: 'Foneinsure', tag: 'Insurtech', logo: asset('images/logos/foneinsure.svg') },
   {
     name: 'Fonepoints',
     tag: 'Loyalty & Rewards',
-    logo: '/images/logos/fonepoints.svg',
+    logo: asset('images/logos/fonepoints.svg'),
   },
-  { name: 'eXtensoData', tag: 'Big Data & AI', logo: '/images/logos/extensodata.svg' },
+  { name: 'eXtensoData', tag: 'Big Data & AI', logo: asset('images/logos/extensodata.svg') },
   {
     name: 'Vidhypro Crafts',
     tag: 'Enterprise Tech',
-    logo: '/images/logos/vidhypro.svg',
+    logo: asset('images/logos/vidhypro.svg'),
   },
 ]
 
@@ -166,7 +168,7 @@ export const news = [
       'Foneloan has marked its sixth anniversary, celebrating a journey shaped by innovation, partnership, and a shared commitment to making access to finance simpler.',
     date: 'Featured',
     featured: true,
-    image: '/images/news-featured.jpg',
+    image: asset('images/news-featured.jpg'),
   },
   {
     title: "Gretecho Contributes Rs. 1.35 Crore to Prime Minister's Disaster Relief Fund",

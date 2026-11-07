@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import type { FormEvent } from 'react'
+import { asset } from '../asset'
 import PageBanner from '../components/PageBanner'
 
 export default function ContactPage() {
@@ -15,7 +16,7 @@ export default function ContactPage() {
       <PageBanner
         title="Contact"
         subtitle="Tell us about your banking, payments, or digital transformation goals."
-        image="/images/bg-solutions.jpg"
+        image={asset('images/bg-solutions.jpg')}
       />
       <section className="page-section page-section--light">
         <div className="container contact-layout">

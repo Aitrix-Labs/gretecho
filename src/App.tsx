@@ -10,7 +10,7 @@ import ContactPage from './pages/ContactPage'
 
 export default function App() {
   return (
-    <BrowserRouter basename="/gretecho">
+    <BrowserRouter>
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<HomePage />} />
